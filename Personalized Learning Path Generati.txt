@@ -1,0 +1,15 @@
+Personalized Learning Path Generation:
+
+1. I have imported the built-in function "random" module to generate the random numbers which in used in the code for simulation purpose.
+
+2. I created a class "Path Generator" in which it contains the details of the course and the user.
+
+3. I defined a method to generate the learning path to retrieve user information based on recomendation's. Initially i have set the number of recomendation's to 5 to retrieve the user's past registration's and the performance records of the user's.
+
+4. Then i have analyzed the user's interests based on their past engagements and generated the personalized recommendations based on the interests.
+
+5. Then i have added a method "analyze_interests" to count and analyze the occurrences of the topics, in this method i have written the code assuming the word 'topic' in each course's data.
+
+6. Then i have intialized a method "generate recommendations" to rank the courses based user's interests and for recommending the top courses.
+
+7. I have also added the test case for the generating the output by adding the courses and the user data by this both the data present we can initialize the learning path generator for the user

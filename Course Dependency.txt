@@ -1,0 +1,16 @@
+I have imported "defaultdict" to creates a dictionary-like object to automatically create that key and assign it a default value specified during its initialization. It will be None if no value is provided.
+I have imported "deque" from 'collections' as it a best way to append and pop from both ends, offering advantages in terms of performance and memory efficiency.
+
+1. I  used a combination of graph approach with topological sorting, and i also implemented a second approach to enroll the courses that have no prerequisites or prerequisites that have already been completed.
+
+2. So, i defined a class "VideoCoursePlatform" that contains a graphical representation of courses and their prerequisites.
+
+3. I defined the method "add_course" to add the courses with their prerequisites to the platform.
+
+4. I defined the method "enroll" to allow the user to enroll in the course and to check if the prerequisites are completed before the enrollment.
+
+5. I defined the method "resolve_prerequisites" to resolve the prerequisites using a topological sorting to determine the optimized learning path.
+
+6. I defined "has_uncompleted_prerequisites" method to check wether the prerequisites been completed for the particular course or not.7
+
+7. I have added a test case below the code to check if a particular course can be completed without the prerequisites been completed.
