@@ -33,6 +33,9 @@ I have imported "deque" from 'collections' as it a best way to append and pop fr
 
 6. Then i have intialized a method "generate recommendations" to rank the courses based user's interests and for recommending the top courses.
 
+7. I have also added the test case for the generating the output by adding the courses and the user data by this both the data present we can initialize the learning path generator for the user
+
+
 
 
 # System Architechture for Scalable Video Streaming(Task 2):
@@ -60,5 +63,3 @@ To Implement a system architecture for streaming educational content with low la
 •	Set up automated testing, deployment, and scaling processes using CI/CD tools like Jenkins, GitLab CI, or AWS Code Pipeline. This allows for faster updates, quicker bug fixes, and seamless rollout of new features.
 
 •	Implement Digital Rights Management (DRM) solutions such as Widevine, FairPlay, or PlayReady to protect copyrighted content from unauthorized access and piracy.
-
-7. I have also added the test case for the generating the output by adding the courses and the user data by this both the data present we can initialize the learning path generator for the user
